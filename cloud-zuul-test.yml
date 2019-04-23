@@ -1,0 +1,6 @@
+foo: test
+zuul:
+ routes:
+   api-a:
+     path: /api-a/**
+     serviceId: service-client
